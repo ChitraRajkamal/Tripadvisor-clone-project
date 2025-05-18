@@ -62,6 +62,34 @@ body{
     height: 40px;
     border-radius:30px ;
 }
+.main-image{
+  position: relative;
+}
+.main-image__desc{
+  background-color: transparent;
+  position: absolute;
+  bottom: 10%;
+  left: 3%;
+  color: white;
+  font-family: "Noto Srife", serif;
+  font-size: 25px;
+
+}
+.main-image__button{
+  margin-top: 20px;
+  background-color: white;
+  color: black;
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  padding: 10px;
+  font-size: 16px
+}
+.main-image__button:hover{
+  cursor: pointer;
+}
+
 .subtitle{
     padding-top: 60px;
     font-size: 26px;
@@ -185,12 +213,54 @@ body{
     display: flex;
     gap: 15px;
     margin-top: 30px;
-}
+    }
 .hotels img{
     border-radius: 10px;
     width: 269.5px;
     height: 270px;
 }
+.hotels__1{
+  position: relative;
+}
+.hotels__1__t1{
+  left:8% ;
+  bottom: 10%;
+  position: absolute;
+  color: white;
+  
+}
+.hotels__2{
+  position: relative;
+}
+.hotels__2__t1{
+  left:8% ;
+  bottom: 10%;
+  position: absolute;
+  color: white;
+  
+}
+.hotels__3{
+  position: relative;
+}
+.hotels__3__t1{
+  left:8% ;
+  bottom: 10%;
+  position: absolute;
+  color: white;
+  
+}
+.hotels__4{
+  position: relative;
+}
+.hotels__4__t1{
+  left:8% ;
+  bottom: 10%;
+  position: absolute;
+  color: white;
+  
+}
+
+
 .content1{
   margin-top: 70px;
 }
@@ -216,6 +286,76 @@ body{
      width: 269.5px;
     height: 270px;
     }
+    /*course card*/
+    .course-card1{
+            position: relative;
+    }
+    .course-card1_heart1{
+      position: absolute;
+      top: 8%;
+      right: 5%;
+      background-color: white;
+      width: 35px;
+      height: 35px;
+      border-radius: 20px;
+           
+    }
+    .course-card1_heart1__1{
+      position: absolute;
+      padding: 9px;
+     }
+     .course-card2{
+            position: relative;
+    }
+    .course-card2_heart2{
+      position: absolute;
+      top: 8%;
+      right: 5%;
+      background-color: white;
+      width: 35px;
+      height: 35px;
+      border-radius: 20px;
+           
+    }
+    .course-card2_heart2__2{
+      position: absolute;
+      padding: 9px;
+     }
+     .course-card3{
+            position: relative;
+    }
+    .course-card3_heart3{
+      position: absolute;
+      top: 8%;
+      right: 5%;
+      background-color: white;
+      width: 35px;
+      height: 35px;
+      border-radius: 20px;
+           
+    }
+    .course-card3_heart3__3{
+      position: absolute;
+      padding: 9px;
+     }
+.course-card4{
+            position: relative;
+    }
+    .course-card4_heart4{
+      position: absolute;
+      top: 8%;
+      right: 5%;
+      background-color: white;
+      width: 35px;
+      height: 35px;
+      border-radius: 20px;
+           
+    }
+    .course-card4_heart4__4{
+      position: absolute;
+      padding: 9px;
+     }
+    /*Ends here */
      /*dot part 1*/
     .course-card__ratings{
       display: flex;    
@@ -226,8 +366,7 @@ body{
   .course-card__dot{
     gap: 2px;
    display: flex;
-   
-   
+      
   }  
   .course-card__dot__1{
      background-color:#34E0A1;
@@ -460,6 +599,59 @@ body{
         padding-top: 30px;
         
     }
+    
+.explore__1{
+            position: relative;
+    }
+    .explore__1__heart1{
+      position: absolute;
+      top: 3%;
+      right: 3%;
+      background-color: white;
+      width: 35px;
+      height: 35px;
+      border-radius: 20px;
+           
+    }
+    .explore__1__heart1__1{
+      position: absolute;
+      padding: 9px;
+     }
+       
+     .explore__2{
+            position: relative;
+    }
+    .explore__2__heart2{
+      position: absolute;
+      top: 3%;
+      right: 3%;
+      background-color: white;
+      width: 35px;
+      height: 35px;
+      border-radius: 20px;
+           
+    }
+    .explore__2__heart2__2{
+      position: absolute;
+      padding: 9px;
+     }
+     .explore__3{
+            position: relative;
+    }
+    .explore__3__heart3{
+      position: absolute;
+      top: 3%;
+      right: 10%;
+      background-color: white;
+      width: 35px;
+      height: 35px;
+      border-radius: 20px;
+           
+    }
+    .explore__3__heart3__3{
+      position: absolute;
+      padding: 9px;
+     }
     .container-2{
       margin-left: 100px;
    margin-right: 100px;
@@ -483,6 +675,46 @@ body{
     width: 269.5px;
     height: 270px;
 }
+.next-trip__images1{
+  position: relative;
+}
+.next-trip__images1_desc{
+  left:8% ;
+  bottom: 8%;
+  position: absolute;
+  color: white;
+  
+}
+.next-trip__images2{
+  position: relative;
+}
+.next-trip__images2_desc{
+  left:8% ;
+  bottom: 8%;
+  position: absolute;
+  color: white;
+  
+}
+.next-trip__images3{
+  position: relative;
+}
+.next-trip__images3_desc{
+  left:8% ;
+  bottom: 8%;
+  position: absolute;
+  color: white;
+ 
+}
+.next-trip__images4{
+  position: relative;
+}
+.next-trip__images4_desc{
+  left:8% ;
+  bottom: 8%;
+  position: absolute;
+  color: white;
+  
+}
     /*Next Trip ends here */
     /*Next Holiday*/
 .next-holiday__content{
@@ -502,6 +734,42 @@ body{
     border-radius: 10px;
     width: 269.5px;
     height: 270px;
+}
+.next-holiday__images1{
+  position: relative;
+}
+.next-holiday__images__1{
+  left:8% ;
+  bottom: 8%;
+  position: absolute;
+  color: white; 
+}
+.next-holiday__images2{
+  position: relative;
+}
+.next-holiday__images__2{
+  left:8% ;
+  bottom: 8%;
+  position: absolute;
+  color: white; 
+}
+.next-holiday__images3{
+  position: relative;
+}
+.next-holiday__images__3{
+  left:8% ;
+  bottom: 8%;
+  position: absolute;
+  color: white; 
+}
+.next-holiday__images4{
+  position: relative;
+}
+.next-holiday__images__4{
+  left:8% ;
+  bottom: 8%;
+  position: absolute;
+  color: white; 
 }
     /*Next Holiday ends here*/
 
