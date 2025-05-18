@@ -174,7 +174,7 @@ body{
        border-radius: 10px;
 }
 .content{
-    margin-top: 20px;
+    margin-top: 70px;
 }
 .content p{
     padding-top: 20px;
@@ -191,6 +191,12 @@ body{
     width: 269.5px;
     height: 270px;
 }
+.content1{
+  margin-top: 70px;
+}
+.content1 p{
+  padding-top: 20px;
+}
 .recommended{
       
    display: flex;
@@ -200,6 +206,9 @@ body{
 .recommended__container{
   display: flex;
   gap: 15px;
+}
+.recommended__container h3{
+  padding-top: 7px;
 }
 .recommended__container img{
     margin-top: 20px;
@@ -410,11 +419,15 @@ body{
     }
 .explore{
     
-    margin-top:30px;
+        margin-top:50px;
         background-color: #e7e7e3;
         justify-content: space-evenly;
         
         
+    }
+    .explore h2{
+      margin-top: 30px;
+      margin-bottom: 50px;
     }
    
 .explore-image{
@@ -424,6 +437,7 @@ body{
     display: flex;
     gap: 20px; 
     justify-content: space-evenly;
+    
      
           
     }
@@ -432,12 +446,279 @@ body{
         width: 350px;
         height: 220px;
         
+        
     }
-    .explore-image p{
+    .explore-image h3{
         margin-top: 20px;
+        margin-bottom: 50px;
         
        
     }
     .explore h2{
         margin-left: 70px;
+        
+        padding-top: 30px;
+        
+    }
+    .container-2{
+      margin-left: 100px;
+   margin-right: 100px;
+    }
+    /*Next Trip */
+.next-trip__content{
+    margin-top: 70px;
+}
+.next-trip__content p{
+    padding-top: 20px;
+}
+.next-trip__imgcontent{
+    flex-wrap: wrap;
+    margin: 10px;
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+.next-trip__imgcontent img{
+    border-radius: 10px;
+    width: 269.5px;
+    height: 270px;
+}
+    /*Next Trip ends here */
+    /*Next Holiday*/
+.next-holiday__content{
+    margin-top: 70px;
+}
+.next-holiday__content p{
+    padding-top: 20px;
+}
+.next-holiday__imgcontent{
+    flex-wrap: wrap;
+    margin: 10px;
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+.next-holiday__imgcontent img{
+    border-radius: 10px;
+    width: 269.5px;
+    height: 270px;
+}
+    /*Next Holiday ends here*/
+
+    /*Learn more*/
+   .learnmore{
+    margin-top: 70px;
+    padding: 25px;
+    background-color: #e7e7e3;
+    display: flex;
+    align-items: center;
+    
+   }
+   
+   .learnmore__logo{
+    height: 30px;
+    width: 30px;
+   }
+   .learnmore__contentsub{
+    justify-content: center;
+    padding-bottom: 20px;
+    align-items: center;
+    display: flex;
+   }
+   
+   .learnmore__contentsub1 h1{
+       margin-left: 90px;
+       
+   }
+   .learnmore__contentsub1 p{
+    padding-top: 10px;
+      margin-left:30px ;
+   }
+   .learnmore__button{
+       background-color: black;
+    color: white;
+    height: 50px;
+    width: 130px;
+    border-radius: 40px;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 180px;
+    cursor: pointer;
+   }
+    
+    /* ends here*/
+    .container-3{
+      margin-top: 40px;
+      background-color: #e7e7e3;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 50px;
+      padding-right: 100px;
+      padding-left: 100px;
+      padding-bottom: 50px;
+    }
+    .endcontent__1 p{
+       padding: 5px;
+    }
+.endcontent__2 p{
+       padding: 5px;
+    }
+    .endcontent__3 p{
+       padding: 5px;
+    }
+    .endcontent__4 p{
+       padding: 5px;
+    }
+    .endcontent__1_p1:hover{
+      border-bottom: solid black 0.3px;
+      cursor: pointer;
+       width: fit-content; 
+       padding: 0;
+    }
+     .endcontent__1_p2:hover{
+      border-bottom: solid black 0.3px;
+      cursor: pointer;
+       width: fit-content; 
+       padding: 0;
+    }
+     .endcontent__1_p3:hover{
+      border-bottom: solid black 0.3px;
+      cursor: pointer;
+       width: fit-content; 
+       padding: 0;
+    }
+     .endcontent__1_p4:hover{
+      border-bottom: solid black 0.3px;
+      cursor: pointer;
+       width: fit-content; 
+       padding: 0;
+    }
+     .endcontent__1_p5:hover{
+      border-bottom: solid black 0.3px;
+      cursor: pointer;
+      width: fit-content;
+      padding: 0;
+    }
+     .endcontent__1_p6:hover{
+      border-bottom: solid black 0.3px;
+      cursor: pointer;
+      width: fit-content;
+      padding: 0;
+    }
+     .endcontent__1_p7:hover{
+      border-bottom: solid black 0.3px;
+      cursor: pointer;
+       width: fit-content; 
+       padding: 0;
+    }
+     .endcontent__1_p8:hover{
+      border-bottom: solid black 0.3px;
+      cursor: pointer;
+      width: fit-content; 
+      padding: 0;
+    }
+    .endcontent__2_p1:hover{
+       border-bottom: solid black 0.3px;
+      cursor: pointer;
+      width: fit-content; 
+      padding: 0;
+
+    }
+    .endcontent__2_p2:hover{
+       border-bottom: solid black 0.3px;
+      cursor: pointer;
+      width: fit-content; 
+      padding: 0;
+
+    }
+    .endcontent__2_p3:hover{
+       border-bottom: solid black 0.3px;
+      cursor: pointer;
+      width: fit-content; 
+      padding: 0;
+
+    }
+    .endcontent__2_p4:hover{
+       border-bottom: solid black 0.3px;
+      cursor: pointer;
+      width: fit-content; 
+      padding: 0;
+
+    }
+    .endcontent__2_p5:hover{
+       border-bottom: solid black 0.3px;
+      cursor: pointer;
+      width: fit-content; 
+      padding: 0;
+
+    }
+    
+    .endcontent__3_p3:hover{  
+      border-bottom: solid black 0.3px;
+      cursor: pointer;
+      width: fit-content; 
+      padding: 0;
+    }
+    .endcontent__3_3:hover{  
+      border-bottom: solid black 0.3px;
+      cursor: pointer;
+      width: fit-content; 
+      padding: 0;
+    }
+    .endcontent__3_p4:hover{  
+      border-bottom: solid black 0.3px;
+      cursor: pointer;
+      width: fit-content; 
+      padding: 0;
+    }
+    .iPhone:hover{
+border-bottom: solid black 0.3px;
+      cursor: pointer;
+      width: fit-content; 
+      padding: 0;
+    }
+    .Android:hover{
+border-bottom: solid black 0.3px;
+      cursor: pointer;
+      width: fit-content; 
+      padding: 0;
+    }
+    .Viator{
+      display: flex;
+    }
+    .viator__P:hover{
+      border-bottom: solid black 0.3px;
+      cursor: pointer;
+      width: fit-content; 
+      padding: 0;
+    }
+    .logos{
+      margin-top: 20px;
+      gap: 30px;
+      display: flex;
+      
+    }
+    
+    .entry{
+      border: none;
+      margin-top: 100px;
+      gap: 20px;
+      display: flex;
+      width: 100px;
+      height: 30px;
+      border-color: solid black 1px;
+      border-radius: 30px;
+      
+    }
+    .end{
+      display: flex;
+      padding-top: 30px;
+      font-size: 12px;
+    }
+    .end img{
+      align-items: center;
+      width: 50px;
+      height: 50px;
+      justify-content: center;
     }
