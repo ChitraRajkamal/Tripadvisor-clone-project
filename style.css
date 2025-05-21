@@ -15,6 +15,11 @@ body{
     display: flex;
     justify-content: space-between;
    align-items: center;
+   position: sticky;
+   z-index: 1;
+   background-color: white;
+   top: 0;
+   
 }
 .navbar__s1{
     display: flex;
@@ -33,19 +38,29 @@ body{
     display: flex;
     gap:30px;
 }
+.navbar__s2 h4{
+  background-color: white;
+  padding: 10px;
+
+}
 .navbar__s2 h4:hover{
-    
+
+    transform: translate(0);  
     cursor: pointer;
     background-color: #F2F1EC;
-    border-radius: 20px;
+    border-radius: 30px;
+    padding: 10px;
+    
 } 
 .navbar__s2__forums:hover{
-    
-    background-color: none;
-    border-bottom: solid black 2px;
+
+    transform: translate(0);
+      background-color: none;  
+    border-bottom: solid black 1px;
     cursor: pointer;
     
 } 
+
 .navbar__s3{
     display: flex;
     gap: 10px;
@@ -63,7 +78,11 @@ body{
     border-radius:30px ;
 }
 .main-image{
+  
   position: relative;
+}
+.main-image img{
+  width: 100%;
 }
 .main-image__desc{
   background-color: transparent;
@@ -104,6 +123,7 @@ body{
     justify-content: center;    
 }
 .categories__1{
+    
     display: flex;
     gap: 5px;
     align-items: center;
@@ -114,6 +134,7 @@ body{
     border-bottom: solid black 2px;
 }
 .categories__2{
+  
     display: flex;
     gap: 5px;
     align-items: center;
@@ -208,20 +229,41 @@ body{
     padding-top: 20px;
 }
 .hotels{
-    flex-wrap: wrap;
+   flex-grow: 1;
+    flex-basis: 20%;
     margin: 10px;
     display: flex;
     gap: 15px;
     margin-top: 30px;
+  /*
+    flex-wrap: wrap;
+    margin: 10px;
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;*/
     }
 .hotels img{
     border-radius: 10px;
+    
     width: 269.5px;
     height: 270px;
+
 }
-.hotels__1{
+/*.hotels__1{
   position: relative;
 }
+.hotels__2{
+  position: relative;
+}
+.hotels__3{
+  position: relative;
+}
+.hotels__4{
+  position: relative;
+}*/
+.hotels__image{
+  position: relative;
+} 
 .hotels__1__t1{
   left:8% ;
   bottom: 10%;
@@ -229,9 +271,7 @@ body{
   color: white;
   
 }
-.hotels__2{
-  position: relative;
-}
+
 .hotels__2__t1{
   left:8% ;
   bottom: 10%;
@@ -239,9 +279,7 @@ body{
   color: white;
   
 }
-.hotels__3{
-  position: relative;
-}
+
 .hotels__3__t1{
   left:8% ;
   bottom: 10%;
@@ -249,9 +287,7 @@ body{
   color: white;
   
 }
-.hotels__4{
-  position: relative;
-}
+
 .hotels__4__t1{
   left:8% ;
   bottom: 10%;
@@ -287,7 +323,19 @@ body{
     height: 270px;
     }
     /*course card*/
-    .course-card1{
+   /* .course-card1{
+            position: relative;
+    }
+    .course-card2{
+            position: relative;
+    }
+     .course-card3{
+            position: relative;
+    }
+    .course-card4{
+            position: relative;
+    }*/
+    .course-card{
             position: relative;
     }
     .course-card1_heart1{
@@ -304,9 +352,7 @@ body{
       position: absolute;
       padding: 9px;
      }
-     .course-card2{
-            position: relative;
-    }
+     
     .course-card2_heart2{
       position: absolute;
       top: 8%;
@@ -321,9 +367,7 @@ body{
       position: absolute;
       padding: 9px;
      }
-     .course-card3{
-            position: relative;
-    }
+    
     .course-card3_heart3{
       position: absolute;
       top: 8%;
@@ -338,9 +382,7 @@ body{
       position: absolute;
       padding: 9px;
      }
-.course-card4{
-            position: relative;
-    }
+
     .course-card4_heart4{
       position: absolute;
       top: 8%;
@@ -664,18 +706,20 @@ body{
     padding-top: 20px;
 }
 .next-trip__imgcontent{
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
+     flex-grow: 1;
+    flex-basis: 20%;
     margin: 10px;
     display: flex;
     gap: 15px;
-    margin-top: 30px;
+    margin-top: 30px;   
 }
 .next-trip__imgcontent img{
     border-radius: 10px;
     width: 269.5px;
     height: 270px;
 }
-.next-trip__images1{
+.next-trip__images{
   position: relative;
 }
 .next-trip__images1_desc{
@@ -685,9 +729,7 @@ body{
   color: white;
   
 }
-.next-trip__images2{
-  position: relative;
-}
+
 .next-trip__images2_desc{
   left:8% ;
   bottom: 8%;
@@ -695,9 +737,7 @@ body{
   color: white;
   
 }
-.next-trip__images3{
-  position: relative;
-}
+
 .next-trip__images3_desc{
   left:8% ;
   bottom: 8%;
@@ -705,9 +745,7 @@ body{
   color: white;
  
 }
-.next-trip__images4{
-  position: relative;
-}
+
 .next-trip__images4_desc{
   left:8% ;
   bottom: 8%;
@@ -724,7 +762,9 @@ body{
     padding-top: 20px;
 }
 .next-holiday__imgcontent{
-    flex-wrap: wrap;
+   /* flex-wrap: wrap;*/
+    flex-grow: 1;
+    flex-basis: 20%;
     margin: 10px;
     display: flex;
     gap: 15px;
@@ -735,7 +775,8 @@ body{
     width: 269.5px;
     height: 270px;
 }
-.next-holiday__images1{
+
+.next-holiday__images{
   position: relative;
 }
 .next-holiday__images__1{
@@ -744,27 +785,21 @@ body{
   position: absolute;
   color: white; 
 }
-.next-holiday__images2{
-  position: relative;
-}
+
 .next-holiday__images__2{
   left:8% ;
   bottom: 8%;
   position: absolute;
   color: white; 
 }
-.next-holiday__images3{
-  position: relative;
-}
+
 .next-holiday__images__3{
   left:8% ;
   bottom: 8%;
   position: absolute;
   color: white; 
 }
-.next-holiday__images4{
-  position: relative;
-}
+
 .next-holiday__images__4{
   left:8% ;
   bottom: 8%;
@@ -990,3 +1025,135 @@ border-bottom: solid black 0.3px;
       height: 50px;
       justify-content: center;
     }
+    /*Media Queries*/
+@media screen and (max-width:800px){
+    body{
+    font-size: 12px;
+}
+}
+@media screen and (max-width:600px){
+    
+   .main-image img{
+    width: 600px;
+   }
+  .container{
+    padding: 0px;
+    margin: 0;;
+  }
+  .navbar{
+    top: 0;
+      position: sticky;
+      z-index: 1;
+      background-color: white;
+   
+  }
+  .navbar__s2{
+    display: none;
+  }
+  
+  .navbar__s3__pipe{display: none;
+  }
+  .navbar__s3__inr{
+    display: none;
+  }
+  .navbar__s3 i{
+     display: none;
+  }
+
+  .hotels img{
+    
+   width: 155px;
+   height: 155px;
+  }
+  .course-card img{
+   width: 155px;
+   height: 155px;
+  }
+.explore-image img{
+  width: 155px;
+   height: 155px;
+
+}
+.next-trip__imgcontent img{
+  
+    width: 155px;
+   height: 155px;
+}
+.container-2{
+    padding: 0px;
+    margin: 0;;
+  }
+  .next-holiday__imgcontent img{
+    width: 155px;
+   height: 155px;
+  }
+ /*learmore*/
+  .learnmore{
+    margin-top: 70px;
+    padding: 25px;
+    background-color: #e7e7e3;
+    display: flex;
+    align-items: center;
+    
+   }
+   .learnmore img{
+       width: 220px;
+       height: 220px;
+   }
+   .learnmore__contentsub img{
+    height: 15px;
+    width: 15px;
+   }
+   .learnmore__contentsub{
+    justify-content: center;
+    padding-bottom: 20px;
+    align-items: center;
+    display: flex;
+   }
+   
+   .learnmore__contentsub1 h1{
+       margin-left: 45px;
+       
+   }
+   .learnmore__contentsub1 p{
+    padding-top: 10px;
+      margin-left:20px ;
+   }
+   .learnmore__button{
+       background-color: black;
+    color: white;
+    height: 25px;
+    width: 100px;
+    border-radius: 20px;
+    font-size: 12px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 55px;
+    cursor: pointer;
+   }
+
+   /*Search bar*/
+.searchbar{
+    margin-left: 5px;
+     width: 93%;
+
+       
+}
+
+.categories{
+    margin-left: 50px;
+    margin-top: 50px;
+    flex-grow: 1 ;
+    gap: 15px;
+  
+}
+.categories i{
+    margin-left: 5px;
+    
+}
+.container-3{
+  margin-left: 0;
+  padding: 0;
+}
+
+}
